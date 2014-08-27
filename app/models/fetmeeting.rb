@@ -1,5 +1,5 @@
 class Fetmeeting < ActiveRecord::Base
-  attr_accessible :tnlist, :typ, :calentry_attributes
+  attr_accessible :tnlist, :typ, :calentry_attributes, :calentry
   has_many :fetmeetingtops
   validates :typ, presence: true 
   validates :calentry, presence: true	

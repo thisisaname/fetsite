@@ -4,6 +4,7 @@ de:
     edit: "Profil bearbeiten"
     geburtstag: "Geburtstag"
     adresse: "Adresse"
+    new: "Neues Profil anlegen"
   formtastic:
     labels:
       fetprofile:

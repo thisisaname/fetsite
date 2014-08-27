@@ -13,7 +13,7 @@
 #
 
 class Calentry < ActiveRecord::Base
-  attr_accessible :ende, :start, :summary, :typ,:calendar_ids, :calendar, :dauer
+  attr_accessible :ende, :start, :summary, :typ,:calendar_ids, :calendar, :dauer, :object
   belongs_to :calendar
   #belongs_to :neuigkeit
   validates :start, :presence => true
